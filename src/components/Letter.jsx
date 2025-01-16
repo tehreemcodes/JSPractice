@@ -68,7 +68,7 @@ function Letter() {
               <div className="letter" ref={letterRef}>
                 <div className="body">
                   <span className="close">x</span>
-                  <div className="message">Hi, I love you so much</div>
+                  <div className="message">To my dearest Umar, Thankyou for being my home, my happy place and my forever. I'm grateful for you today, tomorrow & always. I love you forever and always - image heart emoji here</div>
                 </div>
               </div>
             </div>

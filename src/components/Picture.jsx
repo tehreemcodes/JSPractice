@@ -1,5 +1,10 @@
 import React from 'react'
 import { picture } from '../assets'
+import oneImage from '../assets/7.jpg'; // Import 1.jpg
+import twoImage from '../assets/6.jpg';
+import threeImage from '../assets/5.jpg'; // Import 1.jpg
+import fourImage from '../assets/4.jpg';
+import fiveImage from '../assets/3.jpg'; // Import 1.jpg
 import Carousel from './Carousel'
 import { ImageCard } from './ImageCard'
 import {ArrowLeft } from './icons'
@@ -9,8 +14,12 @@ function Picture() {
   const navigate = useNavigate();
 
   const pictures = [
-    { Image: picture, title: 'September 3, 2024', description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, possimus!"},   
-    { Image: picture, title: 'September 3, 2024', description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, possimus!"},
+    { Image: oneImage, title: 'October 15, 2022',description: 'Agar kabhi kisi ne meray se poocha ke tum dono ki first picture sath konsi thi to mai ye dikhaoun gi',},
+    { Image: twoImage, title: 'October 31, 2024',description: 'Ye to kafi latest hai aur mujhay ye bohot pasand hai cute hai ye',},
+    { Image: threeImage, title: 'October 29, 2024',description: 'Ye meri kafi favourites mai se aik favourite hai. is din hum ne tumhara favourite sandwich khaya tha ;)',},
+    { Image: fourImage, title: 'October 23, 2024',description: 'ye thi hamari 2 year anniversary date love youuu',},   
+    { Image: fiveImage, title: 'September 25, 2024', description:'Ye thi hamari first ever "date" date after two whole years. hum asian wok dobara jayen ge kisi din okay?',
+    },
 
   ]
   return (

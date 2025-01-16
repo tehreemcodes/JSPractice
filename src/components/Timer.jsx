@@ -6,7 +6,7 @@ import { ArrowRight } from './icons'
 
 function Timer() {
   // Anniversary date
-  const START_DATE = new Date('2024-10-18')
+  const START_DATE = new Date('2022-10-23')
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,
@@ -61,7 +61,7 @@ function Timer() {
         <span className="text-sm sm:text-2xl mt-1 sm:mt-2">Seconds</span>
       </div>
     </div>
-    <p className=' text-lg mb-8 drop-shadow-lg'>{`... and still counting <3` }</p>
+    <p className=' text-lg mb-8 drop-shadow-lg'>{`... and still counting to forever <3` }</p>
     {/* Button */}
     <div className="flex justify-center w-full">
       <button 

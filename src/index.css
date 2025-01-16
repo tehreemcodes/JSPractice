@@ -103,8 +103,8 @@ overflow-x: hidden;
 }
 
 .letter .body .message {
-  font-size: 16px;
-  font-weight: 900;
+  font-size: 12px;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -146,4 +146,10 @@ overflow-x: hidden;
     linear-gradient(150deg, var(--base) 50%, var(--shadow) 50%, var(--base-dark) 53%) 0px 90px / 151px 90px no-repeat,
     /* top-right */
     linear-gradient(148.7deg, transparent 50%, var(--shadow) 50%, var(--base) 51%) 150px 0px / 150px 90px no-repeat;
+}
+
+.image-card img {
+  object-fit: contain !important;
+  width: 100%; /* Ensure it spans the full width of the container */
+  height: auto; /* Maintain aspect ratio */
 }

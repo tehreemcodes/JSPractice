@@ -1,5 +1,7 @@
 import React from 'react'
 import {picture} from '../assets'
+import oneImage from '../assets/1.jpg'; // Import 1.jpg
+import twoImage from '../assets/2.jpg';
 import Carousel from './Carousel'
 import { ImageCard } from './ImageCard'
 import {ArrowLeft } from './icons'
@@ -10,8 +12,9 @@ function Message() {
 
   // customize your own picture, title and subtext. You can also add more picture.
   const pictures = [
-    { Image: picture, title: 'September 3, 2024', description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, possimus!"},   
-    { Image: picture, title: 'September 3, 2024', description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, possimus!"},
+    { Image: oneImage, title: 'October 23, 2022',description: 'Sabsay ziada memorable din hum dono ke liye',},   
+    { Image: twoImage, title: 'March 10, 2023', description:'Ye meray starred messages mai para hua tha aur mai jab bhi is message ko dekhti hoon to meray mu pe smile aa jati hai',
+  },
 
   ]
   return (
